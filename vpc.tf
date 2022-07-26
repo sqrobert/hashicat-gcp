@@ -3,8 +3,8 @@ module "network" {
     version = "3.4.0"
 
     # insert required variables here
-    network_name - hashicat-gcp-network
-    project_id = var.project_id
+    network_name = "hashicat-gcp-network"
+    project_id = var.project
     subnets = [
         {
             subnet_name   = "gaurav-subnet"
